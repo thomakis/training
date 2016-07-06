@@ -55,7 +55,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-9e15f8f6"
   vpc_security_group_ids = ["sg-dca200b4"]
-  count                  = 2
+  count                  = 1
 
   tags {
     Identity = "totaljobs-6f4922f45568161a8cdf4ad2299f6d23"
